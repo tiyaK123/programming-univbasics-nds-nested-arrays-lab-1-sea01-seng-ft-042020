@@ -34,7 +34,7 @@ def assembled_matrix
   "Avocadoes",
   "Asparagus"
 ]]
-arr 
+return arr 
 end
 
 def sorted_matrix
