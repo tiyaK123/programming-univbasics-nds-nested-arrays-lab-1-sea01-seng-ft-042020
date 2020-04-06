@@ -22,7 +22,7 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   arr = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-return arr 
+ arr 
 end
 
 def sorted_matrix
@@ -34,6 +34,7 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
+  matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
